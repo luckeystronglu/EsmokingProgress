@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3adcfd"
+    tools:context="com.luckey.esmokingprogress.MainActivity">
+
+    <com.luckey.esmokingprogress.CircleProgressBar
+        android:id="@+id/circleprogressbar_cpb_demo"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/bg_drawable_center"
+        app:cpbBackgroundColor="#64edebeb"
+        app:cpbBackgroundSize="10dp"
+        app:cpbBottomText="计划 : 120"
+        app:cpbBottomTextColor="#eee9e9"
+        app:cpbBottomTextGap="12dp"
+        app:cpbBottomTextSize="18sp"
+
+        app:cpbGravity="center"
+        app:cpbMax="120"
+        app:cpbProgress="75"
+
+        app:cpbProgressSize="10dp"
+        app:cpbProgressValueTextColor="#fcfdfc"
+        app:cpbProgressValueTextSize="72sp"
+        app:cpbRadius="150dp"
+        app:cpbScaleType="None"
+
+        app:cpbShowProgressValue="true"
+        app:cpbStartAngle="270"
+        app:cpbSweepAngle="360"
+
+        app:cpbTopText="今日吸烟口数"
+        app:cpbTopTextColor="#eee9e9"
+        app:cpbTopTextGap="12dp"
+        app:cpbTopTextSize="18sp" />
+</RelativeLayout>
